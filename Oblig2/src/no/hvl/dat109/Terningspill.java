@@ -21,6 +21,7 @@ public class Terningspill {
         Kopp kopp = new Kopp(1);
         Terning t1 = new Terning(1);
         Terning t2 = new Terning(2);
+        kopp.trill();
 
     }
 }
