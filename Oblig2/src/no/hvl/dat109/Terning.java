@@ -23,4 +23,9 @@ public class Terning {
     public void setVerdi(int verdi) {
         this.verdi = verdi;
     }
+
+    public int trill() {
+        this.verdi = ((int) (Math.random() * 6)) + 1;
+        return this.verdi;
+    }
 }
