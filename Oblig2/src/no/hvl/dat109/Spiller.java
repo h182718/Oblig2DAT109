@@ -1,5 +1,8 @@
 package no.hvl.dat109;
 
+/**
+ * @author kjetilhunshammer
+ */
 public class Spiller {
     private String navn;
     private int verdi;
@@ -24,6 +27,10 @@ public class Spiller {
         this.verdi = verdi;
     }
 
+    /**
+     * @param kopp Tar kopp som input
+     * @return setter verdi, og returnerer verdien.
+     */
     public int spill(Kopp kopp) {
         Terning t1 = kopp.getT1();
         Terning t2 = kopp.getT2();

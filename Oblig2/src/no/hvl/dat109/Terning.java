@@ -1,5 +1,8 @@
 package no.hvl.dat109;
 
+/**
+ * @author kjetilhunshammer
+ */
 public class Terning {
     private int id;
     private int verdi;
@@ -24,6 +27,9 @@ public class Terning {
         this.verdi = verdi;
     }
 
+    /**
+     * @return verdien til terningen når den er trillet. fra 1-6.
+     */
     public int trill() {
         this.verdi = ((int) (Math.random() * 6)) + 1;
         return this.verdi;

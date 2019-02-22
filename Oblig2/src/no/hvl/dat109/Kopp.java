@@ -1,5 +1,8 @@
 package no.hvl.dat109;
 
+/**
+ * @author kjetilhunshammer
+ */
 public class Kopp {
     private int id;
     private int sum;
@@ -45,6 +48,11 @@ public class Kopp {
     }
 
 
+    /**
+     * @param t1 Terning 1 som skal trilles
+     * @param t2 Terning 2 som skal trilles
+     * @return Setter sum i klassen, og returnerer summen av verdien på de 2 terningene
+     */
     public int trill(Terning t1, Terning t2) {
 
         return this.sum = t1.trill() + t2.trill();
